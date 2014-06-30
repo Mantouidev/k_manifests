@@ -1,48 +1,50 @@
-Submitting Patches
-------------------
-Our ROM is open source, and patches are always welcome!
-You can send patches by using these commands:
 
-    cd <project>
-    <make edits>
-    git add -A
-    git commit -m "commit message"
-    git push ssh://<username>@gerrit.omnirom.org:29418/<project> HEAD:refs/for/<branch>
-
-Register at gerrit.omnirom.org and use the username that you registered there in the above command
-
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
-
-If you are going to make extra additions, just repeat steps (Don't start a new patch), but instead of git commit -m
-use git commit --amend. Gerrit will recognize it as a new patchset.
-
-To view the status of your and others patches, visit [OMNI ROM Code Review](https://gerrit.omnirom.org)
-
-
-Getting Started
+简介
 ---------------
 
-To get started with OMNI ROM, you'll need to get
-familiar with [Git and Repo](http://source.android.com/download/using-repo).
+Mantoui 是构建在 OmniRom 基础上的一个小版本；
 
-To initialize your local repository using the OMNIROM trees, use a command like this:
+在此请首先对 OmniRom 的贡献者表示感谢；
 
-    repo init -u git://github.com/omnirom/android.git -b <branch>
+Mantoui 仅凭个人爱好，不喜者勿扰 . 谢谢！
 
-Then to sync up:
+
+版本
+---------------
+
+Android：4.4.4 r1
+
+OmniRom: android-4.4
+
+
+下载
+---------------
+
+获取:
+
+    repo init -u git://github.com/mantoui/m_manifests.git -b Kitkat
+
+同步:
 
     repo sync
 
-Then to build:
+编译:
 
      cd <source-dir>; . build/envsetup.sh; brunch <device_name>
 
 
-If you need more information or a more detailed guide, click [here to see our wiki.](http://docs.omnirom.org)
 
-Our official IRC Channels are hosted on Freenode:
+OmniRom
+---------------
 
-[#omnirom - USERS](http://webchat.freenode.net/?channels=omnirom/)
+ [官网](http://www.omnirom.org)
 
-[#omni - DEVELOPERS](http://webchat.freenode.net/?channels=omni/)
+ [文档](http://docs.omnirom.org)
+
+ [论坛](http://forum.xda-developers.com/forumdisplay.php?f=2601)
+
+ [Gerrit](http://gerrit.omnirom.org)
+
+
+
 
