@@ -306,7 +306,6 @@
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
@@ -444,6 +443,7 @@
   <project path="packages/apps/Browser" name="m_packages_apps_Browser" remote="mantoui" revision="Kitkat" />
   <project path="packages/apps/Calendar" name="m_packages_apps_Calendar" remote="mantoui" revision="Kitkat" />
   <project path="packages/apps/Camera2" name="m_packages_apps_Camera2" remote="mantoui" revision="Kitkat" />
+  <project path="packages/apps/Contacts" name="m_packages_apps_Contacts" remote="mantoui" revision="Kitkat" />
   <project path="packages/apps/ContactsCommon" name="m_packages_apps_ContactsCommon" remote="mantoui" revision="Kitkat" />
   <project path="packages/apps/DashClock" name="m_packages_apps_DashClock" remote="mantoui" revision="Kitkat" />
   <project path="packages/apps/DeskClock" name="m_packages_apps_DeskClock" remote="mantoui" revision="Kitkat" />
